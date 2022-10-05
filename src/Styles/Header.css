@@ -1,0 +1,61 @@
+.kasa-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.kasa-nav {
+  list-style-type: none;
+  display: flex;
+  margin-top: 20px;
+}
+
+.home {
+  margin-right: 20px;
+}
+
+.home:hover {
+  text-decoration: underline;
+}
+
+.apropos:hover {
+  text-decoration: underline;
+}
+
+.home,
+.apropos {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #ff6060;
+  text-decoration: none;
+  line-height: 142.6%;
+}
+
+.kasa-logo {
+   Width:
+   210.32px;
+   height:
+   68px;
+}
+
+@media screen and (max-width: 500px) {
+  .kasa-logo {
+   height: 47px;
+width: 145px;
+
+  }
+
+  .home, .apropos {
+ font-size: 12px;
+ text-transform: uppercase;
+  }
+
+  .logo {
+   width: 145px;
+height: 
+47px;
+}
+}

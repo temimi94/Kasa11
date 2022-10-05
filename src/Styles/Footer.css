@@ -1,0 +1,37 @@
+.footer {
+    background-color: black;
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+ }
+ 
+ .footer p {
+    color: white;
+    font-size: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+ }
+ 
+ .footer img {
+   width: 150px;
+ }
+ 
+ .footer .footer-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+ }
+ 
+ 
+ 
+   @media (max-width: 500px) {
+   
+      .footer p {
+          font-size: 12px;
+          }
+  }
+ 

@@ -1,0 +1,16 @@
+11eme projet réalisé dans le cadre du parcours développeur d'application front-end d'OpenClassrooms
+
+Maquettes du projet disponibles en cliquant ici : https://www.figma.com/file/bAnXDNqRKCRRP8mY2gcb5p/UI-Design-Kasa-FR?node-id=0%3A1
+
+L'application est disponible en cliquant sur le lien suivant : https://temimi94.github.io/Kasa_Projet11/
+
+COMPÉTENCES ACQUISES :
+
+apprendre React
+apprendre React Router
+
+clonez le projet : https://github.com/temimi94/Kasa_Projet11.git
+
+Sur votre terminale VSCode mettez la commande npm i pour installer touts le package dont on auras besoin pour ce projet .
+
+Pour finir npm start pour lancer le projet 

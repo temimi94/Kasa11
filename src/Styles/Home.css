@@ -1,0 +1,105 @@
+.header-item {
+  width: 99%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-left: 10px;
+  margin-bottom: 30px;
+  mix-blend-mode: darken;
+}
+a {
+  text-decoration: none;
+}
+
+.header-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 25px;
+  mix-blend-mode: darken;
+}
+
+.header-item p {
+  position: absolute;
+    top: 55px;
+    margin-left: 30%;
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding-top: 45px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 142.6%;
+  
+} 
+
+.location-card-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  padding-top: 20px;
+}
+
+.card {
+  height: 340px;
+  width: 340px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.card img {
+  width: 100%;
+  height: 340px;
+  border-radius: 10px;
+}
+
+h5.titre {
+  font-weight: 500;
+  font-size: 16px;
+  height: 0;
+  margin-top: 340px;
+  display: flex;
+  align-items: flex-end;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 754px) {
+  .card {
+    width: 335px;
+    height: 255px;
+  }
+
+  .home {
+    margin-right: 10px;
+  }
+
+  div.location-card-info div {
+    width: 90%;
+  }
+
+  .header-item {
+    width: 92%;
+    margin-left: 18px;
+  }
+
+  .header-item p {
+   
+    margin-left: 20px;
+    width: 75%;
+  }
+
+  .location-card-info {
+    background-color: white;
+  }
+
+  .header-item img {
+    border-radius: 0px;
+    
+  }
+}

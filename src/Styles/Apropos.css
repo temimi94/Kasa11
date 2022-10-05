@@ -1,0 +1,40 @@
+.title_img {
+  width: 99%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-left: 10px;
+  margin-bottom: 30px;
+  mix-blend-mode: darken;
+}
+
+.title_img img {
+    width: 100%;
+    border-radius: 25px 25px;
+
+}
+
+.accordion-container-apropos {
+    margin-bottom: 20px;
+    margin-left: 10px;
+    width: 80%;
+    padding-left: 90px;
+}
+    
+div.accordion-container-apropos div.accordionlocation__content {
+    width: 100%;
+}
+
+@media screen and (max-width:850px) {
+    .title_img img { 
+       height: 200px;
+       margin-top: 14px;
+    border-radius: 0px
+}
+
+.accordion-container-apropos {
+    margin-top: 20px;
+    width: 95%;
+    padding-left: 10px;
+    margin-left: 0px;
+}
+}
