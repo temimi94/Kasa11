@@ -1,5 +1,5 @@
 import { useState } from "react";
-import '../Styles/Galery.css'
+import '../styles/galery.css'
 
 export default function Slideshow(props) {
   const [slideIdx, setSlideIdx] = useState(0);

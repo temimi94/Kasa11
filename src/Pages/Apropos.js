@@ -1,5 +1,5 @@
-import AccordionLocation from "../Components/AccordionLocation";
-import '../Styles/Apropos.css'
+import AccordionLocation from "../components/AccordionLocation";
+import '../styles/apropos.css'
 
 function Apropos() { 
     

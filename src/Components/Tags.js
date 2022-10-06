@@ -1,4 +1,4 @@
-import '../Styles/Tags.css'
+import '../styles/tags.css'
 
 export default function Tags(props) {
   return (

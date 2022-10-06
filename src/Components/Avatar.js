@@ -1,5 +1,5 @@
 //Ce composant contient le Avatar du Proprietaire
-import '../Styles/Avatar.css'
+import '../styles/avatar.css'
 export default function Avatar(props) {
   return (
     <div className="avatar-container">

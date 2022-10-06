@@ -1,4 +1,4 @@
-import '../Styles/Start.css'
+import '../styles/start.css'
 
 const ColoredStar = () => {
   return <img src="../stars.png" alt="stars" />;

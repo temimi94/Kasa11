@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import LocationCard from "../Components/LocationCard";
-import "../Styles/Home.css";
+import LocationCard from "../components/LocationCard";
+import "../styles/home.css";
 
 export default function Home() {
   const [locations, setLocations] = useState([]);

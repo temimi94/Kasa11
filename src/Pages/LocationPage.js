@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import Avatar from "../Components/Avatar";
-import Start from "../Components/Start";
-import Tags from "../Components/Tags";
-import AccordionLocation from "../Components/AccordionLocation";
-import Galery from "../Components/Galery";
-import "../Styles/LocationPage.css";
+import Avatar from "../components/Avatar";
+import Start from "../components/Start";
+import Tags from "../components/Tags";
+import AccordionLocation from "../components/AccordionLocation";
+import Galery from "../components/Galery";
+import "../styles/locationPage.css";
 
 export default function LocationPage() {
   const [location, setLocation] = useState({

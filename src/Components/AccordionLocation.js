@@ -1,6 +1,6 @@
 import { useRef, useState } from "react";
 import ChevronLocation from "./ChevronLocation";
-import '../Styles/AccordionLocation.css'
+import '../styles/accordionLocation.css'
 
 
 export default function Slideshow(props) {

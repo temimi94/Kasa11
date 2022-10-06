@@ -1,10 +1,10 @@
 import { Route, Routes } from "react-router-dom";
-import Footer from "./Components/Footer";
-import Header from "./Components/Header";
-import Home from "./Pages/Home";
-import LocationPage from "./Pages/LocationPage";
-import PageErreur from "./Pages/PageErreur";
-import Apropos from "./Pages/Apropos"
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Home from "./pages/Home";
+import LocationPage from "./pages/LocationPage";
+import PageErreur from "./pages/PageErreur";
+import Apropos from "./pages/Apropos"
 
 function App() {
   return (
